@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <style type="text/css">
+ .donut_hover {
+	fill: #ffffff;
+	width: 400px;
+	white-space: nowrap;
+	font: 18px "Helvetica",Arial;
+	font-weight: 400;
+	text-align: center;
+	padding: 6px 2px 7px 2px;
+	text-anchor: middle;
+}
+
+.arc0 {
+	opacity: .7;
+}
+
+.arc1 {
+	opacity: .7;
+}
+
+</style>
+<script src="../js/d3.v3.min.js"></script>
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="horizontal_stacked_bar.js" ></script>
+<script type="text/javascript">
+	$(function(){ 
+		d3.select("body").append("svg").append("g").attr('id','hover_bar')
+		var aid_percentages = [,2289268951,2516696160,14218679941,889859025]
+		for(i=0; i < aid_percentages.length; i++){if(aid_percentages[i] == null){aid_percentages[i]=0;}}
+  		horizontal_stacked_bar("#hover_bar",aid_percentages);
+ 	});
+</script>
+</head>
+
+<body>
+	<div id='circle_hover' style="position: absolute;"></div>
+	<div id='circle_hover2' style="left:300px;position: absolute;"></div>
+</body>
+</html>
