@@ -2,9 +2,8 @@
 _exploratory analysis_
 
 ### Usage 
-$python -m SimpleHttpServer to simply serve up files. 
-
-*Will remove python dependency later so its just HTML right now webserver is needed to server CSV to d3*
+$ruby main.rb
+*removed python and moved it over to sinatra was just serving csv for d3*
 
 ### Supported Browser
 Chrome or safari
