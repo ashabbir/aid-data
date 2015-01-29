@@ -14,3 +14,7 @@ Chrome or safari
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ashabbir/aid-data/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
